@@ -36,7 +36,7 @@ int main()
     cout<<"The Equation of the best fit line is : ";
     cout<<"y = "<<m<<"x + "<<c<<endl;
     float value = m*2.5 + c;
-    cout<<"The value of y at x = 25 is : "<<value;
+    cout<<"The value of y at x = 2.5 is : "<<value;
     
 }
 
