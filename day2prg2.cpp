@@ -20,23 +20,14 @@ int main()
     float sumx = 0, sumy= 0 ,sumxy = 0 , sumx2 = 0;
     for(int i=0; i<n; i++){
         sumx = arr[i] + sumx;
-    }
-    for(int i=0; i<n; i++){
         sumy = brr[i] + sumy;
-    }
-    for(int i=0; i<n; i++){
         sumxy = arr[i]*brr[i] + sumxy;
-    }
-    for(int i=0; i<n; i++){
         sumx2 = arr[i]*arr[i] + sumx2;
     }
-
     float m = (float)(n*sumxy - sumx*sumy)/(n*sumx2 - (sumx*sumx));
     float c = (float)(sumy - m*sumx)/n;
     cout<<"The Equation of the best fit line is : ";
     cout<<"y = "<<m<<"x + "<<c<<endl;
     float value = m*2.5 + c;
     cout<<"The value of y at x = 2.5 is : "<<value;
-    
 }
-
