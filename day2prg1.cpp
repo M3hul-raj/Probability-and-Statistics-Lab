@@ -10,27 +10,18 @@ int main()
     int brr[n];
 
     cout<<"Enter the elements in x :";
-    for(int i=0; i<n; i++){
-        cin>>arr[i];
-    }
+    for(int i=0; i<n; i++) cin>>arr[i];
+    
     cout<<"Enter the elements in y :";
-    for(int j=0; j<n; j++){
-        cin>>brr[j];
-    }
+    for(int j=0; j<n; j++) cin>>brr[j];
+    
     int sumx = 0, sumy= 0 ,sumxy = 0 , sumx2 = 0;
     for(int i=0; i<n; i++){
         sumx = arr[i] + sumx;
-    }
-    for(int i=0; i<n; i++){
         sumy = brr[i] + sumy;
-    }
-    for(int i=0; i<n; i++){
         sumxy = arr[i]*brr[i] + sumxy;
-    }
-    for(int i=0; i<n; i++){
         sumx2 = arr[i]*arr[i] + sumx2;
     }
-
     float m = (float)(n*sumxy - sumx*sumy)/(n*sumx2 - (sumx*sumx));
     float c = (float)(sumy - m*sumx)/n;
     cout<<"The Equation of the best fit line is : ";
