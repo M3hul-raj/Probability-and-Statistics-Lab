@@ -9,14 +9,12 @@ int main()
     float arr[n];
     float brr[n];
 
-    cout<<"Enter the elements in x : ";
-    for(int i=0; i<n; i++){
-        cin>>arr[i];
-    }
-    cout<<"Enter the elements in y : ";
-    for(int j=0; j<n; j++){
-        cin>>brr[j];
-    }
+    cout<<"Enter the elements in x :";
+    for(int i=0; i<n; i++) cin>>arr[i];
+    
+    cout<<"Enter the elements in y :";
+    for(int j=0; j<n; j++) cin>>brr[j];
+    
     float sumx = 0, sumy= 0 ,sumxy = 0 , sumx2 = 0;
     for(int i=0; i<n; i++){
         sumx = arr[i] + sumx;
