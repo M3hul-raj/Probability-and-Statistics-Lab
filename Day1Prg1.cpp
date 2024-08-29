@@ -9,7 +9,7 @@ int main()
     for(int i=0; i<8; i++){
         m = arr[i] + m;
     }
-    int mean = m/8;
+    float mean = (float)m/8;
     cout<<(mean);
 
     cout<<"\nVariance is : ";
