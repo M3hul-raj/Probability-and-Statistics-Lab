@@ -16,5 +16,5 @@ int main()
     float var = v/8;
     cout<<var;
     
-    cout<<"\nCoefficient of Variation is : "<<(var/mean);
+    cout<<"\nCoefficient of Variation is : "<<(sqrt(var)/mean);
 }
