@@ -38,7 +38,7 @@ int main()
     for(int i=0; i<n; i++){
         pmf[i] = binoCoeff(n,head[i])*pow(prob,head[i])*pow((1-prob),(n-head[i]));
         exp_freq[i] = sumOffreq*pmf[i];
-        cout<<"Expected frequency for Number_of_Heads = "<<head[i]<<" is : "<<exp_freq[i]<<endl;
+        cout<<"Expected frequency for "<<head[i]<<" heads is : "<<exp_freq[i]<<endl;
     }
 
     float F[n];
