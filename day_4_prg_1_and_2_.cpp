@@ -1,3 +1,5 @@
+/* Draw a scatter plot for the given bivariate data and find the correlation coefficient between 𝑥 and 𝑦 for the data in the dosage example : */
+
 #include <iostream>
 #include <math.h>
 using namespace std;
