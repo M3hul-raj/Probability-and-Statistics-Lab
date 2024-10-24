@@ -1,4 +1,7 @@
-/* Draw a scatter plot for the given bivariate data and find the correlation coefficient between 𝑥 and 𝑦 for the data in the dosage example : */
+/* Draw a scatter plot for the given bivariate data and find the correlation coefficient between 𝑥 and 𝑦 for the data in the dosage example:
+   Dosage (x)               | 3  3  4  5  6  6  7  8  8  9
+   Duration of relief (y)   | 9  5  12 9  14 16 22 18 24 22  
+   Draw a scatter plot for the given bivariate data.    */
 
 #include <iostream>
 #include <math.h>
