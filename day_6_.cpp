@@ -2,7 +2,6 @@
 (a) Find Pearson's Correlation coefficient
 (b) Find Spearman's rank correlation coefficient
 
-1.
     x    10   8   12   15   8   10
     y    7    4   6    7    9   8 
      
