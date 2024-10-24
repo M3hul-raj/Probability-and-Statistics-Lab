@@ -1,3 +1,5 @@
+/* The time taken (in minutes) to complete a homework by 8 students in a day are given by 38, 40, 47, 44, 46, 43, 49, 53.
+   Find the (a) mean (b) variance and (c) coefficient of variation. */
 
 #include <iostream>
 using namespace std;
