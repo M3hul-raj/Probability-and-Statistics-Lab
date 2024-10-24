@@ -1,3 +1,5 @@
+/* The total marks scored by two students A and B in 5 subjects are 460 and 480 with standard deviation 4.6 and 2.4 respectively.
+   Who is more consistent in performance? */
 
 #include <iostream>
 using namespace std;
