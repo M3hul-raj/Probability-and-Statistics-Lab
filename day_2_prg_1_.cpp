@@ -1,3 +1,7 @@
+/* By the method of least squares find the straight line to the data given below:
+x    5   10   15   20   25
+y   16   19   23   26   30  */
+
 #include <iostream>
 using namespace std;
 
