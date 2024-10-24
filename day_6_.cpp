@@ -1,3 +1,7 @@
+/* For the bivariate data given below :
+(a) Find Pearson's Correlation coefficient
+(b) Find Spearman's rank correlation coefficient */
+
 #include <bits/stdc++.h>
 using namespace std;
 
