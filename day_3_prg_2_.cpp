@@ -1,3 +1,8 @@
+/* The following mistakes per page were observed in a book:
+Number of mistakes (per page)   0   1   2   3   4
+Number of pages                211  90  19  5   0
+Fit a Poisson distribution and estimate the expected frequencies. */
+
 #include <bits/stdc++.h>
 using namespace std;
 
