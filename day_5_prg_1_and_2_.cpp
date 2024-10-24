@@ -2,7 +2,16 @@
 (a) Draw a scatter plot.
 (b) Find the correlation coefficient between 𝑥 and 𝑦.
 (c) Determine two lines of regression.
-(d) Match the lines obtained by correlation coefficient method with the lines obtained by principal of least square method */
+(d) Match the lines obtained by correlation coefficient method with the lines obtained by principal of least square method.
+
+1.
+   Dosage (x)               | 3  3  4  5  6  6  7  8  8  9
+   Duration of relief (y)   | 9  5  12 9  14 16 22 18 24 22     
+
+2. Soil temperature (x_i, in °C) and germination interval (y_i, in days) were observed for 
+   winter wheat at 10 localities 
+   x_i    | 12.5   5.0   3.0   5.0   6.5   6.0   4.0   7.0   5.5   4.0
+   y_i    | 10     26    41    29    27    19    18    20    28    33             */
 
 #include <iostream>
 #include <math.h>
