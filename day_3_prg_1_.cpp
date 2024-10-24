@@ -1,3 +1,8 @@
+/* A set of three similar coins are tossed 100 times with the following results:
+Number of heads   0   1    2   3
+Frequency        36   40   22  2
+Fit a Binomial distribution and estimate the expected frequencies. Plot the probability distribution of the Binomial Random Variable. */
+
 #include <bits/stdc++.h>
 using namespace std;
 
