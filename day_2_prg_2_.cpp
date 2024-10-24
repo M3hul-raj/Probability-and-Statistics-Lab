@@ -1,3 +1,7 @@
+/* Fit a straight line to the data given below. Also estimate the value of y at x=2.5.
+x   0    1    2    3    4
+y   1   1.8  3.3  4.5  6.3  */
+
 #include <iostream>
 using namespace std;
 
