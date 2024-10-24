@@ -1,3 +1,9 @@
+/* For the bivariate data given below :
+(a) Draw a scatter plot.
+(b) Find the correlation coefficient between 𝑥 and 𝑦.
+(c) Determine two lines of regression.
+(d) Match the lines obtained by correlation coefficient method with the lines obtained by principal of least square method */
+
 #include <iostream>
 #include <math.h>
 using namespace std;
